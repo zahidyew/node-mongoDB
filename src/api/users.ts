@@ -109,5 +109,3 @@ usersRouter.get('/:id/getnotes', getUser, async (_req: Request, res: Response) =
       res.status(500).json({ message: err.message })
    }
 })
-// Sally = 5f86ffbebedaee15e4044ab1
-// Reese = 5f870003bedaee15e4044ab2
